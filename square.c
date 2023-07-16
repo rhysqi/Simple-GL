@@ -2,7 +2,7 @@
 #include <GL/freeglut.h>
 
 // 2D rectangle in 3D coordinate + color
-void rectangle(){
+void square(){
 	glColor3f(1, 0, 0);
 	glVertex3f(-0.6, -0.75, 0.5);
 	glColor3f(0, 1, 0);
@@ -20,7 +20,7 @@ void display() {
 
 	// GL Start render
   	glBegin(GL_POLYGON);
-	rectangle();
+	square();
   	glEnd();
 
   	glFlush();
