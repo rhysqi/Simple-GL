@@ -1,7 +1,7 @@
 CC = clang15
-File1 = rectangle.c
+File1 = square.c
 File2 = triangle.c
-Out_File1 = -o build/rectangle
+Out_File1 = -o build/square
 Out_File2 = -o build/triangle
 
 LIBS1 = -I/usr/local/include -L/usr/local/lib
