@@ -1,6 +1,6 @@
 # Simple-GL
 Simple GL render 2D in 3D Coordinates with color
-- Rectangle
+- Square
 - Triangle
 
 ## Dependencies
