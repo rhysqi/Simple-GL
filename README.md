@@ -10,7 +10,7 @@ Simple GL render 2D in 3D Coordinates with color
 ````
 # How to compile
 ```
-clang filename.c -o filename -lglut -lGL
+clang filename.c -o filename -lglut -lGL -pthread
 ```
 
 ## Tested
